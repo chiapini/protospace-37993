@@ -31,4 +31,4 @@ belongs_to :user
 |user       |references  |null:false, foreign_key: true |
 ## association
 belongs_to :user
-belong_to :prototype
+belongs_to :prototype

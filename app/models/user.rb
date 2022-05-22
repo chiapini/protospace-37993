@@ -5,4 +5,5 @@ class User < ApplicationRecord
   validates :name,:profile,:occupation,:position,  presence: true  
 
    has_many :prototypes  
+   has_many :comments, dependent: :destroy
 end
